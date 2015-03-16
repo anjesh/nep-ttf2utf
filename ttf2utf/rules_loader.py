@@ -6,6 +6,7 @@ Created on Nov 29, 2013
 import os
 import yaml
 import re
+from io import open
 
 DEFAULTS_FILE = 'defaults.yaml'
 def load_rules(yaml_path):
